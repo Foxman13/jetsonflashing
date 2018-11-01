@@ -36,4 +36,4 @@ RUN /bin/bash ./apply_changes.sh
 
 RUN /bin/bash ./cleanup.sh
 
-ENTRYPOINT [ "bin/bash" ]
+ENTRYPOINT [ "/bin/bash" ]
